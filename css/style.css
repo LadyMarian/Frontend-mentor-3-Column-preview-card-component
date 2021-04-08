@@ -59,7 +59,10 @@ body {
   background-color: #f2f2f2;
   text-decoration: none;
   padding: 1rem 2rem;
+  border: 2px solid rgba(0, 0, 0, 0);
   border-radius: 50px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .card__btn__orange {
@@ -72,6 +75,13 @@ body {
 
 .card__btn__darkcyan {
   color: #004241;
+}
+
+.card__btn:hover {
+  color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  cursor: pointer;
 }
 
 .card__orange {

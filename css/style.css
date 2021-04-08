@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-size: 0.9375rem;
+  font-family: "Lexend Deca", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card-container {
+  width: 20.4375rem;
+  margin: 5.5625rem auto 5.5625rem auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card {
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card__title {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.card__text {
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 0 2rem 0;
+  line-height: 1.6;
+}
+
+.card__btn {
+  background-color: #f2f2f2;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+.card__btn__orange {
+  color: #e38826;
+}
+
+.card__btn__cyan {
+  color: #006970;
+}
+
+.card__btn__darkcyan {
+  color: #004241;
+}
+
+.card__orange {
+  background-color: #e38826;
+}
+
+.card__cyan {
+  background-color: #006970;
+}
+
+.card__darkcyan {
+  background-color: #004241;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 990px) {
+  body {
+    height: 100vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card-container {
+    width: 59rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: auto;
+  }
+  .card__btn {
+    margin-top: 2.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

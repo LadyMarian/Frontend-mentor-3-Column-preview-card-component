@@ -1,0 +1,68 @@
+.card-container  {
+    width: 20.4375rem;
+    margin: 5.5625rem auto 5.5625rem auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.card {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__title {
+        color: $VeryLightGray;
+        font-family: $FontHeaders;
+        font-size: 2.25rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    &__text {
+        color: $TransparentWhite;
+        margin: 0 0 2rem 0;
+        line-height: 1.6;
+    }
+
+    &__btn {
+        background-color: $VeryLightGray;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        // margin: 2rem auto 3rem 0;
+
+        &__orange {
+            color: $BrightOrange;
+        }
+        &__cyan {
+            color: $DarkCyan;
+        }
+        &__darkcyan {
+            color: $VeryDarkCyan;
+        }
+
+    }
+
+    &__orange {
+        background-color: $BrightOrange;
+    }
+    &__cyan {
+        background-color: $DarkCyan;
+    }
+    &__darkcyan {
+        background-color: $VeryDarkCyan;
+    }
+}
+
+// Attribution 
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+ 
+//

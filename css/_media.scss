@@ -1,0 +1,18 @@
+@media (min-width: 990px) {
+    body {
+        height: 100vh;
+        align-items: center;
+    }
+
+    .card-container {
+        // width: 61.3125rem;
+        width: 59rem;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .card__btn {
+        margin-top: 2.5rem;
+    }
+}

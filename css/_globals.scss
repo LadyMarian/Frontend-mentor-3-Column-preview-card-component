@@ -1,0 +1,30 @@
+// COLORS
+
+$BrightOrange: hsl(31,77%,52%);
+$DarkCyan: hsl(184, 100%, 22%);
+$VeryDarkCyan: hsl(179, 100%, 13%);
+
+// paragraphs
+$TransparentWhite: hsla(0, 0%, 100%, 0.75);
+
+// background,headings, buttons
+$VeryLightGray: hsl(0, 0%, 95%);
+
+// FONTS
+
+$FontPrimary: 'Lexend Deca', sans-serif;
+$FontHeaders: 'Big Shoulders Display', cursive;
+
+body {
+    margin: 0;
+    background: $VeryLightGray;
+    font-size: 0.9375rem;
+    font-family: $FontPrimary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
